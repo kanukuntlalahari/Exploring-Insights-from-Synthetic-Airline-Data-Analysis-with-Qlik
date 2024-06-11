@@ -1,0 +1,2484 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <title>Student - Skill Wallet</title>
+    <!-- <title>SmartInternz</title> -->
+    <meta property="og:title" content="SmartInternz">
+  
+  <!-- Hotjar Tracking Code for my site -->
+  <script async="" src="./Documentation_files/panorama.js.download"></script><iframe id="pxcelframe" title="pxcelframe" src="./Documentation_files/t_.html" style="display: none;"></iframe><script type="text/javascript" async="" src="./Documentation_files/js"></script><script type="text/javascript" async="" src="./Documentation_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Documentation_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Documentation_files/js(1)"></script><script async="" src="./Documentation_files/5f591cce58adc60012f342c5.js.download"></script><script src="./Documentation_files/356991988979960" async=""></script><script async="" src="./Documentation_files/fbevents.js.download"></script><script async="" src="./Documentation_files/gtm.js.download"></script><script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 3861990,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script><script async="" src="./Documentation_files/hotjar-3861990.js.download"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="./Documentation_files/smartinternz.ico">
+
+  <meta property="og:title" content="SmartInternz">
+  <meta property="og:url" content="https://skillwallet.smartinternz.com/">
+  <meta property="og:description" content="Project based learning and Remote internship platform">
+  <meta property="og:image" content="https://skillwallet.smartinternz.com/assets/smartinternz_thumb.png">
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.6 -->
+  <link rel="stylesheet" href="./Documentation_files/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="./Documentation_files/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="./Documentation_files/ionicons.min.css">
+  <!-- Theme style -->
+
+  <link rel="stylesheet" href="./Documentation_files/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="./Documentation_files/_all-skins.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="./Documentation_files/blue.css">
+  <!-- Morris chart -->
+  <link rel="stylesheet" href="./Documentation_files/morris.css">
+  <!-- jvectormap -->
+  <link rel="stylesheet" href="./Documentation_files/jquery-jvectormap-1.2.2.css">
+  <!-- Date Picker -->
+  <!-- <link rel="stylesheet" href="https://skillwallet.smartinternz.com/assets/plugins/datepicker/datepicker3.css"> -->
+  <!-- Daterange picker -->
+  <!-- <link rel="stylesheet" href="https://skillwallet.smartinternz.com/assets/plugins/daterangepicker/daterangepicker.css"> -->
+  <!-- bootstrap wysihtml5 - text editor -->
+  <link rel="stylesheet" href="./Documentation_files/bootstrap3-wysihtml5.min.css">
+  <!-- jQuery 2.2.3 -->
+  <script src="./Documentation_files/jquery-2.2.3.min.js.download"></script>
+
+  <!-- <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script> -->
+
+  <meta name="p:domain_verify" content="55c4ec39b8d9f7a35b5fafcd164c516d">
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TV4Q7TH');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '356991988979960');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=356991988979960&ev=PageView
+    &noscript=1" />
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
+
+  <script type="text/javascript" src="./Documentation_files/sharethis.js.download" async="async"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="./Documentation_files/js(2)"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-161189280-1');
+  </script>
+
+  <!-- Hotjar Tracking Code for https://skillwallet.smartinternz.com/ -->
+  <script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 1735161,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script><script async="" src="./Documentation_files/hotjar-1735161.js.download"></script>
+
+
+
+
+  <script>
+    var base_url = 'https://skillwallet.smartinternz.com/';
+  </script>
+  <style>
+    .nav-second-level>li>a {
+      color: #222d32;
+    }
+
+    .nav-second-level>li>a {
+      color: #222d32 !important;
+    }
+
+    .fa.pull-right {
+      margin-left: .3em;
+      margin-right: 10px !important;
+    }
+
+    .notification-drop {
+      font-style: normal;
+      text-align: left;
+      /* background-color: #ebebeb;  */
+      height: max-content;
+      color: #000000 !important;
+      font-weight: 500 !important;
+      font-size: 13px;
+      height: max-content;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-bottom: 0.1px solid #e3e3e3;
+
+    }
+
+    .notification-drop>p {
+      border-bottom: 0.2px solid #e0dede;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: 500 !important;
+    }
+
+    .notification-drop>p:hover {
+      background-color: #f3f3f3;
+    }
+
+    .notify-dot {
+      position: absolute;
+      font-size: 8px;
+      width: 16px;
+      height: 16px;
+      top: 8px;
+      right: 6px;
+      line-height: 16px;
+      background: #e71818;
+      color: #fff;
+      text-align: center;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      -ms-border-radius: 100%;
+      -o-border-radius: 100%;
+      border-radius: 100%;
+      -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+      -ms-transition: all 1s;
+      -o-transition: all 1s;
+      transition: all 1s;
+    }
+
+    .sub_role_title {
+      line-height: 46px;
+      color: #9dff7e;
+      font-weight: 600;
+    }
+
+    .sub_badge {
+      color: #ffffff;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 10px 17px;
+      font-size: 14px;
+      border-radius: 5px;
+      background: #e84e9c;
+
+    }
+
+    .certificate-card {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: 100%;
+        margin: 13px auto;
+        border: 1px solid #bdbdbd45;
+        border-radius: 15px;
+        box-shadow: -8px 5px 16px 0px #f0f0f0;
+        background: #fff;
+        padding: 10px;
+        overflow: hidden;
+        column-gap: 20px;
+    }
+
+    .subscription_divs {}
+
+
+    .skin-blue .wrapper,
+    .skin-blue .main-sidebar,
+    .skin-blue .left-side {
+      box-shadow: -7px 0px 16px 1px #0000002b;
+    }
+
+
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right),
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu {
+      background-color: #00000000 !important;
+    }
+
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span:not(.pull-right),
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>.treeview-menu {
+      display: unset !important;
+      position: unset;
+    }
+
+    .skin-blue .sidebar-menu>li:hover {
+      background-color: unset !important;
+    }
+
+    .sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>span {
+      margin-left: -14px;
+    }
+
+    .sidebar-menu:hover {
+      overflow: hidden !important;
+    }
+
+    .main-header {
+      position: fixed !important;
+      width: -webkit-fill-available !important;
+    }
+
+    .main-sidebar {
+      position: fixed;
+    }
+
+    .content-wrapper {
+      padding-top: 52px !important;
+      min-height: 100vh !important;
+
+    }
+
+    @media only screen and (max-width: 767px) {
+      .skin-blue .main-header .navbar .dropdown-menu li a {
+        color: #000 !important;
+      }
+
+      .no-mobile{
+        display: none !important;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .table-container {
+        width: 100% !important;
+      }
+
+      .content-wrapper {
+        padding-top: 100px !important;
+      }
+    }
+
+    /* .img-fluid{
+        max-width: 100% !important;
+    } */
+
+
+    
+    .social {
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 144px;
+        height: 35px;
+        font-size: 13px;
+        font-weight: 600;
+        box-shadow: inset 0 0 0 2px #dbe3ea;
+        border-radius: 50px;
+        color: #9aa9b5;
+        background: #fff;
+        overflow: hidden;
+        margin: auto;
+        transition: box-shadow 0.2s ease-out;
+    }
+
+    .social span,
+    .social div {
+        margin: auto;
+    }
+
+    .social .social-links {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(62, 130, 251, 0);
+        width: 100%;
+        height: 100%;
+        padding: 0 5px;
+        transition: all 0.25s ease;
+        text-align: center;
+    }
+
+    .social .social-links a {
+        margin: auto;
+        background: #fff;
+        color: #0093c2;
+        width: 24px;
+        height: 24px;
+        border-radius: 20px;
+        line-height: 26px;
+        font-size: 15px;
+        transform: translate3d(0, 60px, 0);
+        transition: all 0.2s;
+    }
+
+    .social .social-links a:hover {
+        background: #89b3fd;
+        color: #fff;
+    }
+
+    .social:hover {
+        box-shadow: inset 0 0 0 2px #dbe3ea, 0 1rem 20px rgba(62, 130, 251, .2);
+    }
+
+    .social:hover .social-links {
+        background: #0093c2;
+    }
+
+    .social:hover .social-links>a {
+        animation: elastic 0.5s ease-out forwards 0s;
+    }
+
+    .social:hover .social-links>a:nth-child(2) {
+        animation-delay: 0.05s;
+    }
+
+    .social:hover .social-links>a:nth-child(3) {
+        animation-delay: 0.1s;
+    }
+
+    .social:hover .social-links>a:nth-child(4) {
+        animation-delay: 0.15s;
+    }
+
+    .social:hover .social-links>a:nth-child(5) {
+        animation-delay: 0.2s;
+    }
+
+    @keyframes elastic {
+        0% {
+            transform: translate3d(0, 60px, 0);
+        }
+
+        40% {
+            transform: translate3d(0, -5px, 0);
+        }
+
+        70% {
+            transform: translate3d(0, 5px, 0);
+        }
+
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+  </style>
+  <link rel="stylesheet" href="./Documentation_files/style.css">
+
+<script async="" src="./Documentation_files/modules.349061f2d87d84c4c336.js.download" charset="utf-8"></script><style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+<body class="skin-blue sidebar-mini" style="">
+  <div class="wrapper">
+
+    <header class="main-header">
+      <!-- Logo -->
+      <a href="https://skillwallet.smartinternz.com/" class="logo">
+        <!-- mini logo for sidebar mini 50x50 pixels -->
+        <span class="logo-mini"><b><img src="./Documentation_files/smartinternz.ico" alt=""></b></span>
+        <!-- logo for regular state and mobile devices -->
+        <span class="logo-lg"><b class="titles_heads"><img src="./Documentation_files/smartinternz.png" alt="" width="110px"></b></span>
+      </a>
+      <!-- Header Navbar: style can be found in header.less -->
+      <nav class="navbar navbar-static-top">
+        <!-- Sidebar toggle button-->
+        <a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+          <span class="sr-only">Toggle navigation</span>
+        </a>
+
+        
+        
+
+
+
+        <div class="navbar-custom-menu">
+          <ul class="nav navbar-nav">
+            <input type="hidden" class="login_text" id="timerCountDown" name="timerCountDown" value="2025-05-23 18:31:11">
+            <p id="countdown" style="display: none;"></p>
+            <!-- User Account: style can be found in dropdown.less -->
+            
+            <li class="nav-item" style="margin-top: 15px;">
+
+                <span class="">
+              
+
+                </span>
+                
+            </li>
+                                    <li class="nav-item no-mobile">
+              <a href="https://skillwallet.smartinternz.com/Student/skillWallet" class="nav-link">
+                <span class=""> Available: 0<img src="./Documentation_files/coin.png" width="25px" style="margin-left: 3px; margin-top: -6px;" alt=""></span>
+              </a>
+            </li>
+                        <li class="dropdown user user-menu" onclick="readStudentNotificationStatus()">
+              <a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#" class="dropdown-toggle" data-toggle="dropdown">
+                <span><i class="fa fa-bell" aria-hidden="true"></i></span>
+                <span class="notify-dot" id="studentCount">0</span>
+              </a>
+              <ul class="dropdown-menu" style="height: max-content; max-height: 350px; background-color: #ffffff; overflow-y: auto; border-radius: 10px; width: 300px !important;">
+                <div class="text-center" style="padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #b9b9b9; margin-right: 15px; margin-left: 15px;">
+                  <span style="font-weight: 700;">Notifications</span>
+                </div>
+                <li class="notification-drop">
+                                      <p>Welcome Aboard!</p>
+                  
+                </li>
+
+
+              </ul>
+            </li>
+
+            <li class="dropdown user user-menu">
+              <a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class=""> <i class="fa fa-cog"></i></span>
+              </a>
+              <ul class="dropdown-menu" style="padding: 8px;border-radius: 10px;">
+                <!-- User image -->
+
+                <li style="border-bottom: 1px solid #00000024;padding: 5px 1px;">
+                  <a href="https://skillwallet.smartinternz.com/student/change_password">Change Password</a>
+                </li>
+
+                <li style="padding: 5px 1px;">
+                  <a href="https://skillwallet.smartinternz.com/Student/Logout">Sign out</a>
+                </li>
+
+              </ul>
+            </li>
+            <!-- Control Sidebar Toggle Button -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Left side column. contains the logo and sidebar -->
+    <aside class="main-sidebar">
+      <!-- sidebar: style can be found in sidebar.less -->
+      <section class="sidebar" style="height: auto;">
+
+        <ul class="sidebar-menu">
+          <li class="header"></li>
+          <!-- <li ><a href="https://skillwallet.smartinternz.com/Student/dashboard"><span class="nav-icons"><i class="fa fa-dashboard"></i></span> <span>Dashboard</span></a></li> -->
+          <li><a href="https://skillwallet.smartinternz.com/student/profile"><span class="nav-icons"><img src="./Documentation_files/profile.png" width="26px;" alt=""></span> <span>Profile</span></a></li>
+                    <li><a href="https://skillwallet.smartinternz.com/Student/allCourses"><span class="nav-icons"><img src="./Documentation_files/breifcase.png" width="26px;" alt=""> <span style="margin-left: 7.5px;">Skill Bank</span></span></a></li>
+                    <!-- <li ><a href="https://skillwallet.smartinternz.com/Student/courses_pack"><span class="nav-icons"><i class="fa fa-send"></i></span> <span>Courses</span></a></li> -->
+          <li class="active"><a href="https://skillwallet.smartinternz.com/Student/externships"><span class="nav-icons"><img src="./Documentation_files/no-skills.png" width="26px;" alt=""></span> <span>Skill Wallet</span></a></li>
+          <li><a href="https://skillwallet.smartinternz.com/student/skillcard"><span class="nav-icons"><img src="./Documentation_files/skillcard.png" width="26px;" alt=""></span> <span>Skill Card</span></a></li>
+                    <li><a href="https://skillwallet.smartinternz.com/student/jobboard"><span class="nav-icons"><img src="./Documentation_files/professionals.png" width="26px;" alt=""></span> <span>Job Board</span></a></li>
+          
+                      <!-- <li style="padding: 5px 1px;">
+              <a href="https://skillwallet.smartinternz.com/Student/subscription_plans">Subscription Plans</a>
+            </li> -->
+            <li><a href="https://skillwallet.smartinternz.com/Student/subscription_plans"><span class="nav-icons"><img src="./Documentation_files/subscription.png" width="26px;" alt=""></span> <span>Subscription</span></a></li>
+                              <li><a href="https://skillwallet.smartinternz.com/Student/skillWallet"><span class="nav-icons"><img src="./Documentation_files/coin.png" width="26px;" alt=""></span> <span>Transactions</span></a></li>
+          
+
+
+          <!--        <li ><a href="https://skillwallet.smartinternz.com/Student/profile"><span class="nav-icons"><i class="fa fa-user"></i></span> <span>Profile</span></a></li>	
+     -->
+
+
+
+
+
+
+        </ul>
+      </section>
+      <!-- /.sidebar -->
+    </aside>
+    <style>
+      @media only screen and (max-width: 500px) {
+        .table-container {
+          border-right-width: 1px;
+          bottom: 0;
+          display: block;
+          left: 0;
+          overflow-x: scroll;
+          overflow-y: auto;
+          padding: 0;
+          transition: all 0.2s ease 0s;
+          width: 250px;
+          z-index: 1000;
+        }
+      }
+
+      .pagination>li {
+        cursor: pointer;
+      }
+
+      @media (max-width: 767px) {
+
+        .main-sidebar,
+        .left-side {
+          /* -webkit-transform: unset;
+    -ms-transform: unset;
+    -o-transform: unset; */
+          /* transform: unset; */
+          /* max-width: 45px; */
+          box-shadow: 1px 1px 1px 1px #dbdbdb;
+
+        }
+
+      }
+    </style>
+
+    <script>
+      function readStudentNotificationStatus() {
+        $.ajax({
+          url: base_url + "Student_API/updateReadNotifications",
+          data: '',
+          type: 'POST',
+          processData: false,
+          contentType: false,
+          success: function(data) {
+            var data = $.parseJSON(data);
+            if (data.success == 1) {
+              getUnReadStudentNotificationCount();
+            }
+          }
+        })
+      }
+
+      function getUnReadStudentNotificationCount() {
+        $.ajax({
+          url: base_url + "Student_API/getUnReadStudentNotificationsCount",
+          data: '',
+          type: 'POST',
+          processData: false,
+          contentType: false,
+          success: function(data) {
+            var data = $.parseJSON(data);
+            if (data.success == 1) {
+              // alert(data.count);
+              $('#studentCount').html(data.count);
+            }
+          }
+        })
+      }
+    </script>
+
+    <link rel="stylesheet" href="./Documentation_files/dashboard_style.css">
+    <!-- <script src="https://skillwallet.smartinternz.com/assets/vps/js/countdown_timer.js"></script> --><link rel="stylesheet" href="./Documentation_files/alertify.min.css">
+<link rel="stylesheet" href="./Documentation_files/default.min.css">
+<link rel="stylesheet" href="./Documentation_files/workspace.css">
+<link rel="stylesheet" href="./Documentation_files/circle.css">
+<style>
+	.btn-assemnt {
+		margin-top: 6px;
+	}
+
+	.copy_btn {
+		background: none;
+		border: none;
+	}
+
+	.btn-opacity {
+		opacity: 0.5;
+	}
+
+	.btn-group-sm>.btn,
+	.btn-sm {
+		padding: 2px 9px !important;
+		font-size: 10px !important;
+		line-height: 1.5 !important;
+		border-radius: 3px !important;
+	}
+
+	.btn-secondary {
+		color: #fff;
+		background-color: #6c757d;
+		border-color: #6c757d;
+	}
+
+	.btn-secondary:hover {
+		color: #fff;
+		background-color: #6c757d;
+		border-color: #6c757d;
+	}
+
+	.btn-dev {
+		font-weight: 500;
+	}
+
+	.disabled-link {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	.dev_divs {
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.dev_divs>p {
+		font-size: 15px;
+		font-weight: 500 !important;
+	}
+
+	.dev_divs>h3 {
+		padding-bottom: 2px;
+		font-size: 30px;
+		font-weight: 600 !important;
+		padding-top: 10px;
+	}
+
+	.dev_divs>a {
+		font-weight: 500;
+	}
+
+	.btn-dev_pop {
+		background-color: #3f4d67;
+		border: 1px solid #3f4d67;
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.workspace_divs {
+		text-align: left;
+	}
+
+	.workspace_divs b {
+		font-size: 15px;
+		font-weight: 600 !important;
+		line-height: 0px;
+	}
+
+	.block {
+		display: block;
+		margin-top: 20px !important;
+	}
+
+	.inp {
+		width: 50%;
+		display: inline-block;
+	}
+
+	span {
+		display: inline-block;
+		cursor: pointer;
+	}
+
+	.password_input {
+		padding: 0px 0px;
+		border-radius: 0px;
+		border: 1px solid #ffffff3b;
+		font-weight: 600;
+		width: 71px;
+		background-color: #f5f5f5c9;
+		text-align: center;
+	}
+
+	.password_input:focus-visible {
+		border: none;
+		outline: none;
+	}
+
+	.centered_doc {
+		padding-top: 27px;
+	}
+
+	.mentorInstructionsBtn {
+		font-size: 17px;
+	}
+</style>
+
+<div class="content-wrapper" style="min-height: 680px;">
+	<section class="content">
+
+
+
+
+		<div class="box box-default table_box cotent_padding">
+
+			
+				<a href="https://skillwallet.smartinternz.com/Student/vip_workspace_info/6424" style="font-weight:700;cursor:pointer;"><i class="fa fa-arrow-left"></i> Back</a>
+						<!-- <a href="https://skillwallet.smartinternz.com/Student/group_projects_workspace_info/6424" style="font-weight:700;"><i class="fa fa-arrow-left"></i> Back</a> -->
+			<!-- <a onclick="history.back()" style="font-weight:700;cursor:pointer"><i class="fa fa-arrow-left"></i> Back</a> -->
+			<ul class="nav nav-tabs" style="margin-top: 15px;">
+				<!-- <li ><a href="https://skillwallet.smartinternz.com/Student/guided_project_info/1222" >Instructions</a></li> -->
+				<li><a href="https://skillwallet.smartinternz.com/Student/guided_project_info/1222">Guided Project</a></li>
+				<li class="active"><a>Project Workspace </a></li>
+									<!-- <p class="time_out_project" id="time_demo"></p> -->
+					<!-- functionality/logic is not proper so sir asked to hide -->
+								<!-- <li><a data-toggle="tab" href="#menu2">Assessment</a></li> -->
+			</ul>
+
+
+			<br>
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="internship_deatils">
+						<table class="internship_table">
+
+							<tbody><tr class="internship_tr">
+								<td>
+									<p class="intership_td">Project Title</p>
+								</td>
+								<td>
+									<p class="intership_td">:</p>
+								</td>
+								<td>
+									<p class="intership_td">Exploring Insights from Synthetic Airline Data Analysis with Qlik</p>
+								</td>
+							</tr>
+															<tr class="internship_tr">
+									<td>
+										<p class="intership_td">Duration</p>
+									</td>
+									<td>
+										<p class="intership_td">:</p>
+									</td>
+									<td>
+										<p class="intership_td">30 Days</p>
+									</td>
+								</tr>
+							
+
+							<tr class="internship_tr">
+								<td class="team_tb">
+									<p class="intership_td">Team</p>
+								</td>
+								<td>
+									<p class="intership_td">:</p>
+								</td>
+								<td>
+									<div class="team_pics">
+																						<div class="left_divs">
+													<div class="thumb_team_pics thumb_team_name" title="Kanukuntla Lahari"> KL </div>
+												</div>
+																				</div>
+								</td>
+							</tr>
+							<tr>
+								<td class="team_tb">
+									<p class="intership_td">Mentor(s) Name</p>
+								</td>
+								<td>
+									<p class="intership_td">:</p>
+								</td>
+								<td>
+									<p class="intership_td">Bhargavi									</p>
+								</td>
+							</tr>
+
+
+
+
+						</tbody></table>
+					</div>
+				</div>
+				<div class="col-sm-4" style="display: grid; justify-content:center;">
+					<div class="row">
+						<div class="col-sm-6">
+							<p class="progress_title">Overall Project Progress</p>
+							<div class="progress mx-auto" data-value="0">
+								<span class="progress-left">
+									<span class="progress-bar border-success"></span>
+								</span>
+								<span class="progress-right">
+									<span class="progress-bar border-success"></span>
+								</span>
+								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+									<div class="h2 font-weight-bold">0<sup class="small">%</sup></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<p class="progress_title">Assigned Tasks Progress</p>
+							<div class="progress mx-auto" data-value="0">
+								<span class="progress-left">
+									<span class="progress-bar border-primary"></span>
+								</span>
+								<span class="progress-right">
+									<span class="progress-bar border-primary"></span>
+								</span>
+								<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+									<div class="h2 font-weight-bold">0<sup class="small">%</sup></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<section class="content">
+		<div class="box box-default table_box cotent_padding">
+			<div id="hide_btn_div">
+				<button class="mentorInstructionsBtn" style="cursor: auto;">General Instructions</button>
+				<button id="toggleButton" class="mentorInstructionsBtn" style="float: right;" onclick="toggleInstructions()">Hide</button>
+				<div id="instructions">
+					<div class="instructions_div_panel">
+						<ol>     <li>Refer to the project description, milestones, activities, and references for understanding the project         deliverables.</li>     <li>Update the project completion status by moving cards to review in the Kanban board under "Task &amp; Progress."</li>     <li>Interact with mentors using the "chat with mentor" option.</li>     <li>Upload all project deliverables to GitHub, such as:</li>     <ul>         <li>Code files</li>         <li>Output screenshots</li>         <li>Project documentation</li>         <li>Project demonstration video</li>     </ul>     <li>Ensure the deliverables are uploaded to a public repository and share the repository link for verification in         the Git Repo option by enabling it in the workspace.</li>     <li>Use the doc writer exclusively for the project report.</li>     <li>When the project completion status reaches 90%, the mentor will review and approve it.</li>     <li>Upon evaluation of the deliverables submitted for verification, the mentor will move the activity card from the         backlog to the review section. Once approved, the mentor will move the card to complete section.</li> </ol>					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="content">
+		<div class="box box-default table_box cotent_padding">
+			<button class="mentorInstructionsBtn">Project Deliverables</button>
+			<br>
+
+								<a class="btn btn-danger" onclick="create_git_link(&#39;1222&#39;)"><i class="fa fa-github"></i> Git Repo</a>
+				
+			<!-- internship_mem_project -->
+			
+							<a class="btn btn-info btn-text" style="margin-left: 2px;" onclick="show_doc_modal(&#39;https://workdrive.zohoexternal.com/external/writer/4964c51b10d7cad9816da1f7171770faf01a26fd8b691fce4f6ac528f0cad9b6&#39;,&#39;UBIDnwH&#39;)"><i class="fa fa-file-text"></i> Project Doc</a>
+				
+							<!-- <a class="btn btn-info btn-danger" onclick="createWorksheet(1222)"><i class="fa fa-file-excel-o"></i> Project Worksheet</a> -->
+								<a class="btn btn-info btn-danger" onclick="uploadVideoPopUp(&#39;1222&#39;)"><i class="fa fa-file-video-o"></i> Demo Link</a>
+				
+
+						<!-- <h4 style="font-weight: 700 !important;">Rocket Chat Credentials</h4> -->
+							<!-- <p>To join the group, please click on chat with mentor.</p> -->
+									<!-- <div class="row"> -->
+
+
+			<!-- </div> -->
+						<!--  -->
+
+											<!-- <p class="write_passowrd">Note: Use password <b>UBIDnwH</b> to access project Doc </p> -->
+				
+		</div>
+		<!-- </div> -->
+	</section>
+
+
+
+	<section class="content">
+		<div class="box box-default table_box cotent_padding">
+			<button class="mentorInstructionsBtn">Kanban Board</button>
+			<br>
+
+
+
+			<ul class="nav nav-tabs custom_tabs">
+				<li><a data-toggle="tab" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#home">Project Details</a></li>
+				<li class="active"><a data-toggle="tab" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#menu2">Task &amp; Progress</a></li>
+				<li id="refresh_comment_section"><a data-toggle="tab" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#menu3">Mentor Review</a></li>
+			</ul>
+
+			<div class="tab-content">
+				<div id="home" class="tab-pane fade">
+
+					<div class="row">
+						<div class="col-sm-5" id="tree_view_display"><div class="treeview-colorful w-20 border border-secondary mx-4 my-4"><ul class="treeview-colorful-list mb-3"><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn tree_btn tree_project" onclick="get_project_data(452)">Exploring Insights from Synthetic Airline Data Analysis with Qlik</button></a><ul class="nested" style="display: none;"><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3231,452)">Project Flow</button></a></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3232,452)">Data Collection &amp; Extraction from Database</button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4978)">Downloading the dataset </button></a></li></ul></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3233,452)">Data Preparation</button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4979)">Prepare the Data for Visualization </button></a></li></ul></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3234,452)">Data Visualization </button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4980)">Airline Data Analysis </button></a></li></ul></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3235,452)">Dashboard</button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4981)">Responsive and Design of Dashboard </button></a></li></ul></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3236,452)">Story</button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4982)"> Design of Story </button></a></li></ul></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3237,452)">Performance Testing </button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4983)">Amount of Data Loaded </button></a></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4984)">Data Pre-Processing – Qlik Sense Script </button></a></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4985)"> Utilization of Filters </button></a></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4986)">No of Visualizations/ Graphs  </button></a></li></ul></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"><i class="fa fa-plus-circle"></i> <button class="btn  tree_btn tree_mile_stone" onclick="get_mile_stone_data(3238,452)">Project Demonstration &amp; Documentation </button></a><ul class="nested" style="display: none;"><a class="treeview-colorful-items-header"></a><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"></a><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4987)">Record explanation Video for the project's end-to-end solution </button></a></li><li class="treeview-colorful-items"><a class="treeview-colorful-items-header"> <button class="btn  tree_btn tree_activities" onclick="get_activity_details(4988)"> Project Documentation-Step by step project development procedure </button></a></li></ul></li></ul></li></ul></div></div>
+						<div class="col-sm-7">
+							<div id="project_creation_form" style="">
+								<div class="project_complexity">
+									<span class="project_complexity_tag" id="complexity">Intermediate</span>
+								</div>
+								<div class="project_title_div">
+									<h3 class="project_title_text" id="projectTitle">Exploring Insights from Synthetic Airline Data Analysis with Qlik</h3>
+								</div>
+
+								<div class="project_category_div">
+									<p class="project_category_text">Category: <span id="category">Data Analytics</span></p>
+								</div>
+
+								<div class="project_skills_div">
+									<p class="project_skills_text">Skills Required: <br><span id="skills">Business Intelligence</span></p>
+								</div>
+
+								<div class="project_description_div">
+									<p class="project_desciption">Project Description:</p>
+									<div class="project_description_div_scroll" id="project_description"><p><span style="font-size: medium;"><span style="font-family: &quot;Open Sans&quot;, sans-serif;">The project "Exploring Insights from Synthetic Airline Data Analysis with Qlik" involves utilizing synthetic airline data to derive valuable insights using Qlik, a business intelligence and data visualization tool.&nbsp;<br></span><span style="font-family: &quot;Open Sans&quot;, sans-serif;">In this project, the synthetic airline data simulates various aspects of airline operations, including flight schedules, passenger demographics, ticket sales, and performance metrics. The objective is to leverage Qlik's analytical capabilities to uncover patterns, trends, and correlations within this data, aiding in decision-making processes for airlines, airports, and related stakeholders.</span><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><br></span><span style="font-family: &quot;Open Sans&quot;, sans-serif;">Scenario 1: Revenue Optimization</span><br><span style="font-family: &quot;Open Sans&quot;, sans-serif;">An airline wants to optimize its revenue by analyzing historical ticket sales data, identifying peak travel times, popular destinations, and pricing strategies. Using Qlik, they can visualize revenue trends over time, segment customers based on purchasing behavior, and adjust pricing strategies accordingly to maximize profitability.</span><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><br></span><span style="font-family: &quot;Open Sans&quot;, sans-serif;">Scenario 2: Operational Efficiency</span><br><span style="font-family: &quot;Open Sans&quot;, sans-serif;">An airport authority aims to enhance operational efficiency by analyzing flight schedules, passenger flows, and luggage handling processes. By integrating Qlik with synthetic airline data, they can identify bottlenecks in airport operations, predict peak traffic periods, and allocate resources effectively to streamline processes and improve overall efficiency.</span><span style="font-family: &quot;Open Sans&quot;, sans-serif;"><br></span><span style="font-family: &quot;Open Sans&quot;, sans-serif;">Scenario 3: Customer Experience Enhancement</span><br><span style="font-family: &quot;Open Sans&quot;, sans-serif;">Airlines are keen to enhance the passenger experience by understanding customer preferences, satisfaction levels, and pain points. Through sentiment analysis on customer feedback data integrated with Qlik, airlines can identify areas for improvement, personalize services, and tailor marketing campaigns to better meet customer needs, ultimately fostering loyalty and satisfa</span><span style="font-family: &quot;Open Sans&quot;, sans-serif;">ction.</span></span></p><span style="font-size: medium;"><span id="docs-internal-guid-af5a5f89-7fff-cff6-8348-be746b4e0759"><p dir="ltr" style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;"><br></span></p></span><span id="docs-internal-guid-af5a5f89-7fff-cff6-8348-be746b4e0759"><p dir="ltr" style="line-height:1.295;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:16pt;font-family:Cambria,serif;color:#000000;background-color:#ffffff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Technical Architecture:</span></p><p dir="ltr" style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;"><b style="font-weight:normal;" id="docs-internal-guid-48a48aa3-7fff-ac48-3793-f430e9983da5"><br></b></span></p><p dir="ltr" style="line-height:1.295;margin-top:0pt;margin-bottom:8pt;"><span style="font-size:12pt;font-family:Cambria,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"><span style="border:none;display:inline-block;overflow:hidden;width:480px;height:290px;"><img src="./Documentation_files/TMniPl8Zw06Ta4pqk-SfY_fgStcBcljdsNpowBanR2f_kmXvMDabfirwdafQpARXfo7IsTQ50Wd9lw4eunKqFE-5uZsZTK-9XQFRqeCJ_5KTLvKif1TUah56ATfg5JEkGv0EiRxfxH60VfGQOlH9qw" width="480" height="290" style="margin-left:0px;margin-top:0px;"></span></span></p><p dir="ltr" style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;"><br></span></p></span><span id="docs-internal-guid-af5a5f89-7fff-cff6-8348-be746b4e0759"><p dir="ltr" style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;"><br></span></p></span></span><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"><span id="docs-internal-guid-af5a5f89-7fff-cff6-8348-be746b4e0759"><p dir="ltr" style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; font-size: medium;"><br></span></p></span></blockquote></blockquote><span id="docs-internal-guid-af5a5f89-7fff-cff6-8348-be746b4e0759"><div><span style="font-size: 12pt; font-family: Cambria, serif; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;"><br></span></div></span></div>
+								</div>
+
+
+
+							</div>
+							<div id="milestones_creation_form" style="display:none">
+								<div class="milestone_div">
+									<h3 class="milestone_text" id="m_milestonetitle"></h3>
+									<div class="milestone_text_description" id="m_description" style="height: 400px;">
+										<p class="project_description_text"></p>
+
+									</div>
+
+								</div>
+							</div>
+							<div id="activity_creation_form" style="display:none">
+								<div class="activity_div">
+									<h3 class="activity_title" id="a_activity_title"></h3>
+
+									<p class="actvity_common_text">Duration: <span id="a_duration">2 </span> <span id="a_months_weeks_days"></span> </p>
+									<p class="actvity_common_text">Skill Tags: <span id="a_tags"></span></p>
+
+									<div class="activity_title_description" id="a_description" style="height: 400px;">
+
+									</div>
+
+								</div>
+							</div>
+							<div id="refrence_creation_form" style="display:none">
+								<div class="row" style="display:none" id="preview_cards_div">
+									<div class="col-md-12">
+										<div class="preivew_cards" id="preivew_cards" style="height: 400px;">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div id="menu2" class="tab-pane fade in active">
+					<div class="switching_divs">
+						<!-- <span class="commerns_span">Team Tasks</span>
+						<label class="switch">
+							<input type="checkbox" id="project_tasks">
+							<span class="slider round"></span>
+						</label>
+						<span class="commerns_span">My Tasks</span> -->
+					</div>
+
+					<div class="container-fluid pt-3">
+
+						<div class="panel-group" id="accordion">
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse1">
+												Data Collection &amp; Extraction from Database</a>
+										</h4>
+									</div>
+									<div id="collapse1" class="panel-collapse collapse in">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20006" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20006</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Downloading the dataset																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20006" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4978)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse2">
+												Data Preparation</a>
+										</h4>
+									</div>
+									<div id="collapse2" class="panel-collapse collapse ">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20007" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20007</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Prepare the Data for Visualization																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20007" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4979)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse3">
+												Data Visualization </a>
+										</h4>
+									</div>
+									<div id="collapse3" class="panel-collapse collapse ">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20008" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20008</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Airline Data Analysis																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20008" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4980)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse4">
+												Dashboard</a>
+										</h4>
+									</div>
+									<div id="collapse4" class="panel-collapse collapse ">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20009" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20009</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Responsive and Design of Dashboard																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20009" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4981)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse5">
+												Story</a>
+										</h4>
+									</div>
+									<div id="collapse5" class="panel-collapse collapse ">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20010" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20010</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					 Design of Story																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20010" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4982)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse6">
+												Performance Testing </a>
+										</h4>
+									</div>
+									<div id="collapse6" class="panel-collapse collapse ">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20011" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20011</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Amount of Data Loaded																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20011" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4983)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20012" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20012</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Data Pre-Processing – Qlik Sense Script																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20012" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4984)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20013" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20013</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					 Utilization of Filters																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20013" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4985)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20014" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20014</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					No of Visualizations/ Graphs 																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20014" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4986)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+															<div class="panel panel-default milestone_divs_panel">
+									<div class="panel-heading milestone_divs">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222#collapse7">
+												Project Demonstration &amp; Documentation </a>
+										</h4>
+									</div>
+									<div id="collapse7" class="panel-collapse collapse ">
+										<div class="panel-body">
+
+											<div class="row flex-row flex-sm-nowrap py-3 ">
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 backlog_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 backlog_title">Backlog</h6>
+															<div class="items border border-light">
+
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20015" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20015</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					Record explanation Video for the project's end-to-end solution																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20015" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4987)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																
+																																			<div class="draggable ui-draggable ui-draggable-handle" id="20016" draggable="true" style="position: relative;">
+																			<div class="card-body p-2 cutom_card_body">
+																				<div class="card-title">
+																					<a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="lead font-weight-light">TSK-20016</a>
+
+																					
+																						
+																							<div class="rounded-circle float-right applicant_name" title="Kanukuntla Lahari"> KL </div>
+
+
+																																											
+																				</div>
+																				<p class="activity_title">
+																					 Project Documentation-Step by step project development procedure																				</p>
+																				<span class="progress_title">Progress(%): </span>
+																				<input type="text" id="act_per_20016" value="0" class="percentage_input">
+
+																				<br><button class="btn btn-primary btn-sm  btn-comment" onclick="make_comment(4988)"><i class="fa fa-comment"></i> Comment</button>
+																			</div>
+																		</div>
+																															</div>
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 inprogress_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 inprogress">In-progess</h6>
+
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_1_3 review_drop custom_grids ui-droppable">
+													<div class="card bg-light ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 review">Review</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+												<div class="col-sm-6 col-md-3 col-xl-3 card_2_4 complete_drop custom_grids ui-droppable" id="complete">
+													<div class="card ">
+														<div class="card-body">
+															<h6 class="card-title text-uppercase text-truncate py-2 complete">Complete</h6>
+
+															
+
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							
+
+						</div>
+					</div>
+
+
+				</div>
+				<div id="menu3" class="tab-pane fade">
+
+
+					<div class="switching_divs">
+						<span class="commerns_span">Comments for team</span>
+						<label class="switch">
+							<input type="checkbox" id="mentor_review">
+							<span class="slider round"></span>
+						</label>
+						<span class="commerns_span">My task comments only</span>
+					</div>
+
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Sno.</th>
+								<th>Student Name</th>
+								<th>Activity Name</th>
+								<th>Comment</th>
+								<th>Reply from Mentor</th>
+								<th>Commented Date</th>
+							</tr>
+						</thead>
+						<tbody id="show_data"><tr><td>No Results Found..</td></tr></tbody>
+					</table>
+					<ul id="pagination" class="pagination pull-right"></ul>
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+</section></div>
+
+
+</div>
+
+
+<div id="kanban_comment" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Comment on Activity</h4>
+			</div>
+			<div class="modal-body">
+				<form onsubmit="return false;" id="comment_form" name="comment_form">
+					<textarea class="form-control" rows="10" id="Comment" name="Comment" placeholder="Comment.." maxlength="200"></textarea>
+					<input type="hidden" class="form-control" id="ActivityID" name="ActivityID">
+					<input type="hidden" class="form-control" id="InternshipID" name="InternshipID" value="1222">
+					<br>
+					<button class="btn btn-success"><i class="fa fa-paper-plane"></i> Send</button>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<div id="myModal" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Internship Description</h4>
+			</div>
+			<div class="modal-body">
+				<form onsubmit="return false;" id="instruction_form">
+					<div class="row">
+						<div class="col-md-12">
+													</div>
+					</div>
+				</form>
+
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Modal -->
+<div id="myModal3" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Project Deliverables</h4>
+			</div>
+			<div class="modal-body">
+				<div class="workspace_divs">
+					<p>Only the team leader will have access to upload project deliverables</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+<!-- Modal -->
+<div id="myteamModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Add Team Member</h4>
+
+			</div>
+			<div class="modal-body">
+				<!-- <div class="optionBox">
+						<div class="block">
+							<input type="text" class="form-control inp" /> <span class="btn btn-primary remove" style="margin-left: 25px;"><i class="fa fa-trash"></i> Remove</span>
+						</div>
+					</div>
+					<div class="block">
+						<span class="btn btn-primary add"><i class="fa fa-plus"></i> Add Team Member</span>
+					</div> -->
+				<div id="team_forms_tabs">
+					<div class="row team_divs">
+						<div class="col-sm-3">
+							<label for="pwd" class="team_label">Team Lead* :</label>
+						</div>
+						<div class="col-sm-5">
+							<input type="email" class="form-control team_text_form valid_form_team email_verify" placeholder="Registered Email ID" data_id="1" value="b21in027@kitsw.ac.in" autocomplete="off">
+						</div>
+					</div>
+					<br>
+									</div>
+				<!-- <div class="optionBox">
+					<div class="block">
+						<input type="text" class="form-control inp" /> <span class="btn btn-primary remove" style="margin-left: 25px;">Remove</span>
+					</div>
+					
+				</div> -->
+				<div class="block">
+					<span class="btn btn-primary" id="add_form_tabs"><i class="fa fa-plus"></i> Add Team Member</span>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- Modal -->
+<div id="myModal4" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Dev Space Details</h4>
+
+			</div>
+			<div class="modal-body">
+				<div class="dev_divs">
+					<p>Use below IAM User Credentials to login to Dev Space.</p>
+					<code>Account ID (12 digits): smartinternz</code><br>
+					<code>IAM User Name: demo3</code><br>
+					<code>Password: 664977</code><br><br>
+					<a class="btn btn-primary btn-dev_pop" target="_blank" href="https://us-east-2.console.aws.amazon.com/cloud9/ide/27a298faa5f14043a2c30a846cf3ec03"><i class="fa fa-code"></i> Go to Dev Space</a>
+
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+<div id="git_models" class="modal fade" role="dialog">
+	<div class="modal-dialog modal-lg">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Confirm to Collaborate</h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<form onsubmit="return false;" id="git_collaboration" class="collaborate_form">
+							<div class="row">
+								<div class="col-md-12">
+									<label for="email">GitHub username:</label>
+									<input type="text" class="form-control custom_colloborate_form" id="github_id" name="github_id" placeholder="GitHub username">
+									<input type="hidden" class="form-control" id="git_application_id" name="git_application_id" value="1222">
+									<input type="hidden" class="form-control" id="studentId" name="studentId" value="7020">
+								</div>
+								<div class="col-md-12">
+									<br>
+									<button class="btn btn-success check_confirm"><i class="fa fa-check"></i> Check &amp; Get Collaborate </button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+					<div class="col-sm-6">
+						<p>Step - 1: Github <a href="https://github.com/join?source=header-home">SignUp / Sign In</a> </p>
+						<p>Step - 2: Copy Github <b style="font-weight:600">Username</b> &amp; Paste it. </p>
+						<img src="./Documentation_files/git_help.png" width="100%">
+
+					</div>
+
+				</div>
+
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- iframe -->
+<div id="userIframe" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Chat</h4>
+
+			</div>
+			<div class="modal-body">
+				<!-- <iframe id="rcChannel" name="rcChannel" src="https://meet.smartinternz.com/channel/general?layout=embedded" width="400" height="700"></iframe> -->
+				<div id="iframe_div">Loading......</div>
+				<div id="chat_div"></div>
+				<iframe id="rcChannel" name="rcChannel" src="./Documentation_files/GP259DemoProjectTitle.html" width="550" height="500"></iframe>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div id="workspaceDiv" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Confirm to worksheet Access</h4>
+
+			</div>
+			<div class="modal-body">
+				<p id="urlData"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div id="DocPopupDiv" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">Doc</h4> <br>
+
+			</div>
+			<div class="modal-body">
+				<div><b style="font-weight: bold !important;">Please ask your team leader to enable Doc </b></div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div id="GitPopupDiv" class="modal fade" role="dialog" style="display: none;">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title" style="font-weight: bold !important;">Upload GITHUB Link</h4> <br>
+				<div><b style="font-weight: bold !important;">Note: </b><span style="font-weight: 600 !important;">Please provide your Git repository public link for evaluating the project files.</span></div>
+
+			</div>
+			<div class="modal-body">
+				<input type="hidden" name="enlId" id="enlId" value="1222">
+				<input type="text" name="gitLink" id="gitLink" class="form-control custom_colloborate_form" placeholder="https://github.com/XXXXX">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success" onclick="uploadGitLink()">Save</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div id="videoPopupDiv" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title" style="font-weight: bold !important;">Upload Video Link</h4> <br>
+				<p style="font-weight: 500 !important;">Please provide the project demonstration video link for evaluation.</p>
+				<div><b style="font-weight: bold !important;">Note: </b> <span style="font-weight: 500 !important;"> The link should be shared as a public link on YouTube or Google Drive, and the video should be a maximum of 4 minutes in length.</span></div>
+
+			</div>
+			<div class="modal-body">
+				<input type="hidden" name="enroId" id="enroId">
+				<input type="text" name="videoLink" id="videoLink" class="form-control custom_colloborate_form" placeholder="Upload Video Link">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success" onclick="uploadVideoLink()">Save</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="modal fade" id="doc_Modal" role="dialog">
+	<div class="modal-dialog">
+
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">×</button>
+				<h4 class="modal-title">View Doc</h4>
+			</div>
+			<div class="modal-body">
+				<p class="copy_yest fw-bold" style="font-weight: 500 !important;"> <span style="color: red;">Note:</span> Below is the password to get access to your doc.</p>
+				<div align="center" class="centered_doc">
+					<!-- <input >  -->
+					<input class="password_input" id="doc_pass" readonly=""><button class="copy_btn" id="doc_pass_btn" onclick="copy_code();">Copy</button>
+					<!-- <span class="copy_btn" id="doc_pass_btn" onClick="copy_code();">Copy</span> -->
+				</div>
+				<div align="center" id="dic_link"><a href="https://skillwallet.smartinternz.com/Student/guided_project_workspace/1222" class="btn btn-primary" style="font-size: 12px !important;" target="_blank"><i class="fa fa-file-text" style="font-size: 12px !important;"></i> Go to Doc</a></div>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="loader" id="loader" style="display: none;"></div>
+<style>
+	.loader {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url('https://smartinternz.com/assets/2022/loader.gif') 50% 50% no-repeat;
+	}
+</style>
+
+
+<script>
+	var i = 1;
+	var j = 1;
+	var dyna_counter = 1;
+	var teamCount = "0";
+	var max_count = 4 - teamCount;
+	var min_count = 1;
+
+	$(function() {
+		$('#loader').hide();
+		$('#add_form_tabs').click(function() {
+			min_count = parseInt(min_count) + 1;
+			dyna_counter = dyna_counter + 1;
+			var html = '';
+			html += '<div class="row team_divs" id="users_add' + min_count + '">';
+			html += '<div class="col-sm-3">';
+			html += '<label for="pwd" class="team_label">Team Member :</label>';
+			html += '</div>';
+			html += '<div class="col-sm-5">';
+			html += '<input type="email" class="form-control team_text_form  email_verify" id="member_' + min_count + '" name="member[]" placeholder="Registered Email ID" data_id="' + min_count + '" autocomplete="off" >';
+			html += '<span class="text_algnments" id="pi_msh_' + min_count + '"></span>';
+			html += '</div>';
+			html += '<div class="col-sm-2" id="confirm_brn_div_' + min_count + '"><a class="btn btn-success btn-xs dyna_btnd" ><i class="fa fa-check-circle "></i> Add</a>&nbsp;</div>';
+			html += '<div class="col-sm-2" id="delete_brn_div_' + min_count + '"><a class="btn btn-danger btn-xs dyna_btnd" onClick="delete_rows(' + min_count + ')"><i class="fa fa-trash"></i> Delete</a></div>';
+			html += '</div>';
+			$('#team_forms_tabs').append(html);
+			if (parseInt(dyna_counter) == parseInt(max_count)) {
+				$('#add_form_tabs').hide();
+			}
+			blur_fun();
+		})
+	})
+
+	// $('.add').click(function() {
+	// 	var html = '';
+	// 	html += '<div class="block">';
+	// 	html += '<input type="text" class="form-control inp" />	';
+	// 	$('.block:last').before('<div class="block"><input type="text" class="form-control inp" /> <span class="btn btn-primary remove" style="margin-left: 25px;">Remove</span></div>');
+	// });
+	// $('.optionBox').on('click', '.remove', function() {
+	// 	$(this).parent().remove();
+	// });
+
+	function createUserRocketChat(id) {
+
+		$('#userIframe').modal('show');
+		$('#iframe_div').show();
+		$.ajax({
+			url: base_url + "Student_API/checkGropupCreatedForuser",
+			method: "POST",
+			data: {
+				'internshipID': internshipID
+			},
+			success: function(chkdata) {
+				chkdata = $.parseJSON(chkdata);
+				if (chkdata.err == 1) {
+					if (chkdata.result['count'] < 1) {
+						$.ajax({
+							url: base_url + "Student_API/rocketChatGroupCreation",
+							method: "POST",
+							data: {
+								'internshipID': internshipID
+							},
+							success: function(data) {
+								if (i == 1) {
+									createUserRocketChat(id);
+								}
+								i++;
+
+								data = $.parseJSON(data);
+								if (data.success == 1) {
+
+									$.ajax({
+										url: base_url + "Student_API/rocketChatUserCreation",
+										method: "POST",
+										data: {
+											'internshipID': internshipID,
+											'group_id': data.group_id,
+											'projectId': data.projectId,
+											'group_name': data.group_name
+										},
+										success: function(userData) {
+
+											userData = $.parseJSON(userData);
+											$.ajax({
+												url: base_url + "Student_API/rocketChatUserLogin",
+												method: "POST",
+												data: {},
+												success: function(logindata) {
+													logindata = $.parseJSON(logindata);
+													// alert(logindata.authToken);
+													// var html = '';
+													// html += '<iframe id="rcChannel" name="rcChannel" src="https://meet.smartinternz.com/group/' + data.group_name + '?layout=embedded" width="550" height="500">';
+													// html += '</iframe>';
+													// $('#chat_div').html(html);
+													$('#iframe_div').hide();
+													// document.getElementById("rcChannel").src = "https://meet.smartinternz.com/group/" + chkdata.result['group_name'] + "?layout=embedded";
+													authenticateIFrame(logindata.authToken);
+												}
+											});
+
+										}
+									});
+								}
+
+							}
+						});
+					} else {
+						$.ajax({
+							url: base_url + "Student_API/rocketChatUserLogin",
+							method: "POST",
+							data: {},
+							success: function(data) {
+
+								data = $.parseJSON(data);
+								// alert(data.authToken);
+								// if (j == 1) {
+								// 	createUserRocketChat(id);
+								// }
+								// j++;
+								$('#iframe_div').hide();
+								// alert(chkdata.result['group_name']);
+								// document.getElementById("rcChannel").src = "https://meet.smartinternz.com/group/" + chkdata.result['group_name'] + "?layout=embedded";
+								authenticateIFrame(data.authToken);
+
+							}
+						});
+					}
+				}
+			}
+		});
+
+	}
+
+	function authenticateIFrame(authToken) {
+		document.getElementById('rcChannel').contentWindow.postMessage({
+			externalCommand: 'login-with-token',
+			token: authToken
+		}, '*');
+	}
+
+	function showUserRocketChat(id) {
+
+		$.ajax({
+			url: base_url + "Student_API/rocketChatUserLogin",
+			method: "POST",
+			data: {},
+			success: function(data) {
+				data = $.parseJSON(data);
+				var html = '';
+				html += '<iframe id="rcChannel" name="rcChannel" src="https://meet.smartinternz.com/group/GP259_Demo-Project-Title?layout=embedded" width="400" height="700">';
+				html += '</iframe>';
+				$('#chat_div').html(html);
+				$('#userIframe').modal('show');
+				authenticateIFrame(data.authToken);
+			}
+		});
+	}
+	// window.onload = function () {
+	// 	$('#userIframe').modal('show');
+	//     authenticateIFrame('AuNR1KXqLE7HU1oweYznLm_W4sIE2tsGf9UkraAmJiq');
+	// };
+	function deleteUserRocketChat(id) {
+		$.ajax({
+			url: base_url + "Student_API/rocketChatUserDeletion",
+			method: "POST",
+			data: {
+				'internshipID': internshipID
+			},
+			success: function(data) {
+
+			}
+		});
+	}
+
+	function isDemoValidLink(input) {
+		var urlPattern = /^(https?:\/\/)?[^\s]*$/i;
+		return urlPattern.test(input);
+	}
+
+	function uploadVideoLink() {
+		var enrollID = $('#enroId').val();
+		var videoLink = $('#videoLink').val();
+		if (videoLink != "") {
+			var onp = isDemoValidLink(videoLink);
+			if (onp == true) {
+				alertify.confirm('Once the demo video link is submitted, it cannot be modified.', function() {
+					$.ajax({
+						url: base_url + "Student_API/uploadDemoVideoLink",
+						method: "POST",
+						data: {
+							'enrollID': enrollID,
+							'videoLink': videoLink
+						},
+						success: function(data) {
+							data = $.parseJSON(data);
+							if (data.succ == '1') {
+								$('#videoPopupDiv').modal('hide');
+								alertify.success('Link uploaded successfully !!');
+								setTimeout(() => {
+									location.reload()
+								}, 2000)
+							}
+						}
+					});
+				})
+			} else {
+				alertify.error('Invalid Link Format');
+			}
+		} else {
+			alertify.error('Please upload Link!');
+		}
+	}
+
+	function isValidGithubURL(url) {
+		const pattern = /^https:\/\/github\.com\/.*/;
+		return pattern.test(url);
+	}
+
+	function uploadGitLink() {
+		var enrollID = $('#enlId').val();
+		var gitLink = $('#gitLink').val();
+		if (gitLink != "") {
+			var op = isValidGithubURL(gitLink);
+			if (op == true) {
+				alertify.confirm('Once the GitHub link is submitted, it cannot be modified.', function() {
+					$.ajax({
+						url: base_url + "Student_API/uploadgithubLink",
+						method: "POST",
+						data: {
+							'enrolID': enrollID,
+							'gitLink': gitLink
+						},
+						success: function(data) {
+							data = $.parseJSON(data);
+							if (data.succ == '1') {
+								$('#GitPopupDiv').modal('hide');
+								alertify.success('Link uploaded successfully !!');
+								setTimeout(() => {
+									location.reload()
+								}, 2000)
+							}
+						}
+					});
+				})
+			} else {
+				alertify.error('Invalid Github Link format');
+			}
+
+		} else {
+			alertify.error('Please upload Link!');
+		}
+
+	}
+
+	function uploadVideoPopUp(enrollID) {
+		$('#enroId').val(enrollID);
+		$('#videoPopupDiv').modal('show');
+	}
+
+	function createWorksheet(enrollID) {
+		$.ajax({
+			url: base_url + "Student_API/createZohoWorksheet",
+			method: "POST",
+			data: {
+				'enrollID': enrollID
+			},
+			success: function(data) {
+				data = $.parseJSON(data);
+				if (data.succ == '1') {
+					var html = '';
+					html = '<a href="' + data.url + '"><button class="btn btn-success check_confirm" ><i class="fa fa-check"></i> Access to worksheet </button></a>';
+					$('#urlData').html(html);
+					$('#workspaceDiv').modal('show');
+				}
+
+			}
+		});
+	}
+
+	function create_git_link(enrollID) {
+		// alert(enrollID);
+		$('#enlId').val(enrollID);
+		$('#GitPopupDiv').modal('show');
+	}
+
+	function enableDoc(BadgeappID) {
+		// if (team_lead_member == 1) {
+
+		alertify.confirm('Confirm to Create a Doc Link', function() {
+			$('#loader').show();
+			$.ajax({
+				url: base_url + "Company_projects_API/guidedproject_create_doc_link",
+				type: "POST",
+				data: {
+					'BadgeappID': BadgeappID
+				},
+				success: function(data) {
+					$('#loader').hide();
+					var data = $.parseJSON(data);
+					if (data.err == 1) {
+						alertify.success('Created a Doc Link');
+						setTimeout(() => {
+							location.reload()
+						}, 2000)
+					} else {
+						alertify.error('Something went wrong ..');
+						setTimeout(() => {
+							location.reload()
+						}, 2000)
+					}
+				}
+			})
+		})
+		// } else {
+		// 	$('#DocPopupDiv').modal('show');
+		// }
+
+	}
+	// function create_git_link(BadgeappID) {
+	// 	alertify.confirm('Confirm to Create a GitHub Link', function() {
+	// 		$.ajax({
+	// 			url: base_url + "Company_projects_API/guidedproject_create_git_link",
+	// 			type: "POST",
+	// 			data: {
+	// 				'BadgeappID': BadgeappID
+	// 			},
+	// 			success: function(data) {
+	// 				var data = $.parseJSON(data);
+	// 				if (data.err == 1) {
+	// 					get_records(cpage);
+	// 					alertify.success('Created a GitHub Link');
+	// 				} else {
+	// 					alertify.error('Something went wrong ..');
+	// 				}
+	// 			}
+	// 		})
+	// 	})
+	// }
+</script>
+
+<script>
+	var base_url = "https://skillwallet.smartinternz.com/";
+</script>
+<script>
+	var internshipID = "1222";
+</script>
+<script>
+	var projectID_dynamic = "452";
+</script>
+<script>
+	var enddate = "01/30/1970";
+	var projectTitle = "Exploring Insights from Synthetic Airline Data Analysis with Qlik";
+	var skillModule = "Virtual Internship Program";
+	var ComanyNmae = "Qlik Sense";
+	var category = "Business Analytics";
+	var enroll_id = "1222";
+	var company_id = "15";
+	var project_id = "452";
+
+	var enddate = enddate.substring(0, 10);
+
+	function notifymentor() {
+		$.ajax({
+			url: base_url + "Student_API/notifymentor",
+			method: "POST",
+			data: {
+				'projectTitle': projectTitle,
+				'skillModule': skillModule,
+				'ComanyNmae': ComanyNmae,
+				'category': category,
+				'enroll_id': enroll_id,
+				'company_id': company_id,
+				'micro_guided_project': 'Guided Project',
+				'project_id': project_id
+			},
+			success: function(data) {
+				// data = $.parseJSON(data);
+				// console.log(data);
+				alertify.success('Request sent successfully. A mentor will be assigned soon!! ');
+				var button = document.getElementById("notmen");
+				button.disabled = true;
+				button.classList.remove("btn-success");
+				button.classList.add("disabled");
+				button.classList.add("btn-secondary");
+				button.removeAttribute("onclick");
+				button.innerText = "Request sent";
+			}
+		});
+	}
+</script>
+
+
+
+<script>
+	var StudentID = "7020";
+</script>
+<script src="./Documentation_files/alertify.min.js.download"></script>
+<script src="./Documentation_files/treeview.js.download"></script>
+<script src="./Documentation_files/guided_project_workspace.js.download"></script><iframe id="_hjSafeContext_71847563" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="./Documentation_files/saved_resource(1).html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg" style="position: fixed; height: auto;"></div>
+
+<!-- ./wrapper -->
+
+<!-- jQuery UI 1.11.4 -->
+<script src="./Documentation_files/jquery-ui.min.js.download"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button);
+</script>
+<!-- Bootstrap 3.3.6 -->
+<script src="./Documentation_files/bootstrap.min.js.download"></script>
+<!-- Morris.js charts -->
+<script src="./Documentation_files/raphael-min.js.download"></script>
+<script src="./Documentation_files/morris.min.js.download"></script>
+<!-- Sparkline -->
+<script src="./Documentation_files/jquery.sparkline.min.js.download"></script>
+<!-- jvectormap -->
+<script src="./Documentation_files/jquery-jvectormap-1.2.2.min.js.download"></script>
+<script src="./Documentation_files/jquery-jvectormap-world-mill-en.js.download"></script>
+<!-- jQuery Knob Chart -->
+<script src="./Documentation_files/jquery.knob.js.download"></script>
+<!-- daterangepicker -->
+<script src="./Documentation_files/moment.min.js.download"></script>
+
+<script src="./Documentation_files/bootstrap3-wysihtml5.all.min.js.download"></script>
+<!-- Slimscroll -->
+<script src="./Documentation_files/jquery.slimscroll.min.js.download"></script>
+<!-- FastClick -->
+<!-- <script src="https://skillwallet.smartinternz.com/assets/plugins/fastclick/fastclick.js"></script> -->
+<!-- AdminLTE App -->
+<script src="./Documentation_files/app.min.js.download"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+
+<!-- AdminLTE for demo purposes -->
+<script src="./Documentation_files/demo.js.download"></script>
+
+
+</body></html>
